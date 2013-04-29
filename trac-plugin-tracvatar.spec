@@ -10,6 +10,9 @@ Source0:	https://bitbucket.org/zzzeek/tracvatar/get/rel_1_7.tar.bz2
 # Source0-md5:	2a9477232efe7af3d6523dc63c57e917
 URL:		https://bitbucket.org/zzzeek/tracvatar
 BuildRequires:	python-devel
+BuildRequires:	python-distribute
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 Requires:	trac >= %{trac_ver}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
